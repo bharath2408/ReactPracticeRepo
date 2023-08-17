@@ -1,0 +1,12 @@
+.loader {
+  margin: auto;
+  height: 80px;
+  width: 80px;
+}
+
+.card-container {
+  height: 200px;
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 2rem;
+  font-family: "Handjet", cursive;
+  font-weight: 900;
+  color: #ffff;
+}
+
+.nav-links {
+  list-style: none;
+  /* display: none;  */
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  fill: white;
+}
+
+/* Media query for responsive navigation */
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffff;
+  }
+}
